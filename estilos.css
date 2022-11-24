@@ -1,0 +1,34 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+.ancho{
+max-width: 1200px;
+margin: auto;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+}
+.contenedorfotos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.contenedorfotos a{
+    border: 10px white solid;
+}
+.contenedorfotos img{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #ccc;
+    transition: all 0.5s;
+}
+.contenedorfotos img:hover{
+   
+}
